@@ -9,27 +9,26 @@ class GetterSetter{
      // private:
     // string address = "prabhakar nagar";
     
-    void setaddress(string add){
+    void setAddress(string add){
         address = add;
     }
     
-    string getaddress(){
+    string getAddress(){
         return address;
     }
     
     private:
     string address;
     
-    
-    
 };
+
 int main(){
     GetterSetter obj;
     cout<< obj.name << endl;
-    obj.setaddress("PrabhakarNagar");
-    cout<< obj.getaddress() << endl;
+    obj.setAddress("PrabhakarNagar");
+    cout<< obj.getAddress() << endl;
 }
 
 
 /*if you already giving value to your 
-private variable dont use setter method*/
+private variable dont use setter method only use getter method*/
