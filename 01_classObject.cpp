@@ -16,4 +16,14 @@ int main() {
     cout<< "Student Name: " << s1.name << endl;
     cout<< "Student Age: " << s1.age << endl;
     cout << "Grade: " << s1.Grade << endl;
+
+    Student s2;
+
+    s2.name = "Rohan";
+    s2.age = 19;
+    s2.Grade = 'B';
+
+    cout<< "Student Name: " << s2.name << endl;
+    cout<< "Student Age: " << s2.age << endl;
+    cout << "Grade: " << s2.Grade << endl;
 }
